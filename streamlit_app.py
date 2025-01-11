@@ -11,7 +11,7 @@ from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 # Set the path for Google credentials JSON file
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"C:\Users\harip\Downloads\client_secret_196560755949-qq53uos7phgf58ipnq4om3r1volt5lru.apps.googleusercontent.com.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"your path/.json"
 
 st.set_page_config(page_title="Code Interpreter")
 st.header("Code Interpreter")
